@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\20201424\\CargoDriver\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|C:\\20201424\\CargoDriver\\CargoDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|solutionrelative:CargoDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|C:\\20201424\\CargoDriver\\CagoDriver3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|solutionrelative:CagoDriver3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|C:\\20201424\\CargoDriver\\CargoDriver1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|solutionrelative:CargoDriver1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|C:\\20201424\\CargoDriver\\CargoDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|solutionrelative:CargoDriver.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|C:\\20201424\\CargoDriver\\CagoDriver2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
@@ -38,12 +38,11 @@
               "RelativeToolTip": "CagoDriver2.cpp",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAEMAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-23T14:59:04.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:59:04.343Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CagoDriver3.cpp",
               "DocumentMoniker": "C:\\20201424\\CargoDriver\\CagoDriver3.cpp",
               "RelativeDocumentMoniker": "CagoDriver3.cpp",
@@ -56,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CargoDriver1.cpp",
               "DocumentMoniker": "C:\\20201424\\CargoDriver\\CargoDriver1.cpp",
               "RelativeDocumentMoniker": "CargoDriver1.cpp",
@@ -64,18 +63,17 @@
               "RelativeToolTip": "CargoDriver1.cpp",
               "ViewState": "AgIAACIAAAAAAAAAAAAAABUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-23T14:46:38.813Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-23T14:46:38.813Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CargoDriver.cpp",
               "DocumentMoniker": "C:\\20201424\\CargoDriver\\CargoDriver.cpp",
               "RelativeDocumentMoniker": "CargoDriver.cpp",
               "ToolTip": "C:\\20201424\\CargoDriver\\CargoDriver.cpp",
               "RelativeToolTip": "CargoDriver.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAG4AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAG4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-23T14:45:50.452Z",
               "EditorCaption": ""
