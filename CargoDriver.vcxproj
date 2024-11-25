@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CagoDriver2.cpp" />
     <ClCompile Include="CagoDriver3.cpp" />
+    <ClCompile Include="CargoDriver.cpp" />
+    <ClCompile Include="CargoDriver1.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

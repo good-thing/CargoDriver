@@ -18,5 +18,14 @@
     <ClCompile Include="CagoDriver3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CagoDriver2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CargoDriver.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="CargoDriver1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
