@@ -27,6 +27,9 @@
     <ClCompile Include="CargoDriver1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="CargoDriver4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="cargo_data.txt">
