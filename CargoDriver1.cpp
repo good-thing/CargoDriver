@@ -3,8 +3,6 @@
 #include <string>
 #include <algorithm> // 정렬
 
-//민규의 알고리즘
-
 using namespace std;
 
 /* 화물 정보를 저장할 구조체 */
@@ -33,7 +31,8 @@ double efficiency = 9.0;  // 연비 고정값
 
 
 /* 그리디 알고리즘으로 최적의 화물 조합을 계산하는 함수 */
-void calBestComb(const vector<Cargo>& cargos, const Truck& truck, double& maxProfit, vector<Cargo>& bestCombination, double& totalReward, double& fuelCost, double& totalDistance, double& totalWeight) {
+void calBestComb(const vector<Cargo>& cargos, const Truck& truck, double& maxProfit, vector<Cargo>& bestCombination, 
+    double& totalReward, double& fuelCost, double& totalDistance, double& totalWeight) {
     vector<Cargo> sortedCargos = cargos;
     calculateRewardPerKg(sortedCargos);  // 수익/무게 비율 계산
 

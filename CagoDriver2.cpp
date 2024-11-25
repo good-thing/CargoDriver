@@ -2,8 +2,6 @@
 #include <vector>
 #include <string>
 
-//영범이 알고리즘
-
 using namespace std;
 
 struct Cargo {
@@ -52,7 +50,7 @@ int main() {
     double maxProfit = -1e9; // 최대 수익 초기화 (비현실적으로 낮은 값)
     vector<Cargo> bestCombination;
 
-    // 모든 조합 확인 (비효율적으로 하나씩 선택)
+    // 모든 조합 확인 (하나씩 선택)
     for (size_t i = 0; i < cargos.size(); ++i) {
         vector<Cargo> currentCombination;
         double totalWeight = 0;

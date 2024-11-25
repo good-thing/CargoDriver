@@ -2,8 +2,6 @@
 #include <vector>
 #include <string>
 
-//현래의 알고리즘
-
 using namespace std;
 
 // 화물차 정보를 저장할 구조체
@@ -87,7 +85,8 @@ int main() {
     cout << "최적의 화물 조합으로 최대 수익: " << maxProfit << "원\n";
     cout << "선택된 화물 목록 (이름, 무게, 거리, 수당):\n";
     for (const auto& cargo : bestCombination) {
-        cout << "이름: " << cargo.name << ", 무게: " << cargo.weight << ", 거리: " << cargo.distance << ", 수당: " << cargo.reward << "\n";
+        cout << "이름: " << cargo.name << ", 무게: " << cargo.weight <<
+            ", 거리: " << cargo.distance << ", 수당: " << cargo.reward << "\n";
     }
 
     return 0;

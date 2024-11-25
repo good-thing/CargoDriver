@@ -23,7 +23,9 @@ double efficiency = 9.0;
 
 
 // 최적의 화물 조합을 계산하는 함수
-void calBestComb(const vector<Cargo>& cargos, const Truck& truck, double& maxProfit, vector<Cargo>& bestCombination) {
+void calBestComb(const vector<Cargo>& cargos, const Truck& truck,
+    double& maxProfit, vector<Cargo>& bestCombination)
+{
     maxProfit = 0.0;                    // 최대 수익 초기화
     bestCombination.clear();            // 이전 조합 초기화    
     double totalWeight = 0;             // 화물의 총 무게
@@ -100,7 +102,8 @@ int main() {
     cout << "최적의 화물 조합으로 최대 수익: " << maxProfit << "원\n";
     cout << "선택된 화물 목록 (이름, 무게, 거리, 수당):\n";
     for (const auto& cargo : bestCombination) {
-        cout << "이름: " << cargo.name << ", 무게: " << cargo.weight << ", 거리: " << cargo.distance << ", 수당: " << cargo.reward << "\n";
+        cout << "이름: " << cargo.name << ", 무게: " << cargo.weight << 
+            ", 거리: " << cargo.distance << ", 수당: " << cargo.reward << "\n";
     }
 
     // 디버깅 정보 출력
