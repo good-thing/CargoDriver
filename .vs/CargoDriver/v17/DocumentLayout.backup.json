@@ -1,12 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\20201424\\CargoDriver\\",
-  "Documents": [],
+  "WorkspaceRootPath": "D:\\20201424\\CargoDriver\\CargoDriver\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|D:\\20201424\\CargoDriver\\CargoDriver\\CagoDriver2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{970E57EB-E99E-4328-823D-CCC3FA993B71}|CargoDriver.vcxproj|solutionrelative:CagoDriver2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CagoDriver2.cpp",
+              "DocumentMoniker": "D:\\20201424\\CargoDriver\\CargoDriver\\CagoDriver2.cpp",
+              "RelativeDocumentMoniker": "CagoDriver2.cpp",
+              "ToolTip": "D:\\20201424\\CargoDriver\\CargoDriver\\CagoDriver2.cpp",
+              "RelativeToolTip": "CagoDriver2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-25T10:18:58.151Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

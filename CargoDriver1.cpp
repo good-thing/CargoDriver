@@ -2,6 +2,7 @@
 #include <vector>
 #include <string>
 #include <algorithm> // 정렬
+#include <ctime>
 
 using namespace std;
 
@@ -88,10 +89,15 @@ int main() {
         cout << "또 다른 화물이 있나요? (없다면 done을 입력): ";
     }
 
+    clock_t start = clock(); // calBestComb 함수 시작 시간 측정
+
     // 3. 최적의 조합을 선택하는 알고리즘 수행
     double maxProfit = 0.0, totalReward = 0.0, fuelCost = 0.0, totalDistance = 0.0, totalWeight = 0.0;
     vector<Cargo> bestCombination;
     calBestComb(cargos, truck, maxProfit, bestCombination, totalReward, fuelCost, totalDistance, totalWeight);
+
+    clock_t end = clock(); // calBestComb 함수 종료 시간 측정
+    double duration = static_cast<double>(end - start) / CLOCKS_PER_SEC;
 
     // 4. 결과 출력
     cout << "\n최적의 화물 조합으로 최대 수익: " << maxProfit << "원\n";
@@ -100,12 +106,14 @@ int main() {
         cout << "이름: " << cargo.name << ", 무게: " << cargo.weight << "kg, 거리: " << cargo.distance << "km, 기본 보수: " << cargo.reward << "원\n";
     }
 
+    cout.precision(9);
     // 디버깅 정보 출력
     cout << "\n[디버깅 정보]\n";
     cout << "총 보수: " << totalReward << "원\n";
     cout << "총 연료 비용: " << fuelCost << "원\n";
     cout << "총 거리: " << totalDistance << "km\n";
     cout << "총 적재 무게: " << totalWeight << "kg\n";
+    cout << "calBestComb 함수 실행 시간: " << duration << " 초\n";
 
     return 0;
 }
